@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class AutoITDemo {
 	@Test
 	public void Test1() throws InterruptedException, IOException {
-	
+	//
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\satya\\eclipse-workspace\\JavaProject\\Drivers\\chromedriver.exe");
 
 		WebDriver driver=new ChromeDriver();
