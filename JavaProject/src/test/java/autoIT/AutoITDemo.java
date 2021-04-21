@@ -17,6 +17,8 @@ public class AutoITDemo {
 		WebDriver driver=new ChromeDriver();
 
 		driver.get("https://www.file.io/");
+		
+		//adding comment
 		Thread.sleep(6000);
 		
 		//driver.findElement(By.className("react-fine-uploader-file-input")).click();
