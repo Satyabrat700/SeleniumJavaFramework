@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="autoIT.AutoITDemo">
+      <class name="mobileAutomation.AliExpress1">
         <methods>
-          <include name="Test1"/>
+          <include name="setup"/>
+          <include name="AddToCart"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- autoIT.AutoITDemo -->
+      </class> <!-- mobileAutomation.AliExpress1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
